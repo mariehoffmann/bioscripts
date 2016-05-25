@@ -20,8 +20,8 @@ def split(filename, output_dir):
 					current_file.close()
 				print "writing to current_file = " + filename_new
 				current_file = open(filename_new, 'w')
-			else:
-				current_file.write(line)
+
+			current_file.write(line)
 
 
 if __name__ == "__main__":
